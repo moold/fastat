@@ -240,7 +240,7 @@ fn main() {
                         match buf.fill(&mut reader) {
                             Ok(0) => {
                                 let is_empty = buf.is_empty();
-                                s2.send(Some(buf)).unwrap(); //send a empty buf to indicate this file reaches EOF
+                                s2.send(Some(buf)).unwrap(); //send an empty buf to indicate this file reaches EOF
                                 if is_empty {
                                     break;
                                 }
