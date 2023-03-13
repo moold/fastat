@@ -1,3 +1,5 @@
+**This script has been integrated into [fxTools](https://github.com/moold/fxTools): `fxTools stat`.**
+
 # fastat
 ultrafast to get bases count/reads count/length distribution from fasta or fastq files
 
